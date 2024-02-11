@@ -5,6 +5,7 @@ import Contact from "./Components/Contact/Contact";
 import Projects from "./Components/Projects/Projects";
 import Technologies from "./Components/Technologies/Technologies";
 import SocialLinks from "./Components/SocialLinks";
+import Education from "./Components/Euducation/Education";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <About/>
+      <Education/>
       <Technologies/>
       <Projects/>
       <Contact/>
