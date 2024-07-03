@@ -11,15 +11,17 @@ function App() {
   return (
     <div>
       <Navbar />
+      <div className=" w-full  bg-gradient-to-b from-black via-black to-gray-800">
       <Home />
       <About/>
       <Education/>
       <Technologies/>
+      
       <Projects/>
       <Contact/>
       <SocialLinks/>
 
-
+      </div>
 
      
     </div>
