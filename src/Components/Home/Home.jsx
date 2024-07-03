@@ -5,20 +5,25 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-    >
+    <div name="home" className="h-screen w-full ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-2xl sm:text-4xl font-bold text-white">
+          <div className="flex justify-center items-center">
+            <img
+              src={HeroImage}
+              alt="my profile"
+              className="  w-60 h-[250px]  lg:w-2/6 lg:h-[290px]  object-cover rounded-full"
+            />
+          </div>
+
+          <h2 className="text-2xl mt-10 sm:text-4xl font-bold text-white">
             I'm a Front-end driven MERN stack developer🌱
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-          👋Hello, welcome to my portolio🌟
+          <p className="flex justify-center items-center text-gray-500 py-4  max-w-full">
+            👋Hello there...!, welcome to my portolio🌟
           </p>
 
-          <div>
+          <div className="flex justify-center items-center">
             <Link
               to="portfolio"
               smooth
@@ -31,14 +36,6 @@ const Home = () => {
               </span>
             </Link>
           </div>
-        </div>
-
-        <div>
-          <img
-            src={HeroImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
         </div>
       </div>
     </div>

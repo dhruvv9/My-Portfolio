@@ -1,5 +1,5 @@
 import React from "react";
-import nodejs from "../../assets/node.png"
+import nodejs from "../../assets/node.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
@@ -40,13 +40,12 @@ const Technologies = () => {
       style: "shadow-sky-400",
     },
     {
-        id: 6,
-        src: nodejs,
-        title:  "Node.JS",
-        style: "shadow-green-400",
-      },
-    
-    
+      id: 6,
+      src: nodejs,
+      title: "Node.JS",
+      style: "shadow-green-400",
+    },
+
     {
       id: 8,
       src: github,
@@ -56,16 +55,12 @@ const Technologies = () => {
   ];
 
   return (
-    <div
-      name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
-    >
+    <div name="skills" className="w-full  lg:mt-[300px] h-screen md:h-0">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+        <div className="pb-8 flex justify-center items-center">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Skills
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
